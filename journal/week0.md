@@ -7,4 +7,4 @@
 - Create a Billing Alarm
 ![Create a billing alarm](./assets/BillingAlarm.png "Billing Alarm")
 - Create a budget
-- ![Create a budget](./assets/Budgets.png "Budgets")
+![Create a budget](./assets/Budgets.png "Budgets")
