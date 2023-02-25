@@ -16,8 +16,8 @@
 - Run DynamoDB Local Container and ensure it works	
   - Added [DynamoDB](https://github.com/MoroJr/cruddur/commit/666d57134f1727126a1946a6b14db46d017008a4#diff-e45e45baeda1c1e73482975a664062aa56f20c03dd9d64a827aba57775bed0d3R20) to docker-compose
   - Created a table & added some items to it & listed them
-  - [DynamoDB Results](./assets/dynamodb.png)
+  - ![DynamoDB Results](./assets/dynamodb.png)
 - Run Postgres Container and ensure it works	
   - [Added postgres client to yaml](https://github.com/MoroJr/cruddur/commit/666d57134f1727126a1946a6b14db46d017008a4#diff-370a022e48cb18faf98122794ffc5ce775b2606b09a9d1f80b71333425ec078eR12)
   - [Added postgres to docker compose](https://github.com/MoroJr/cruddur/commit/666d57134f1727126a1946a6b14db46d017008a4#diff-e45e45baeda1c1e73482975a664062aa56f20c03dd9d64a827aba57775bed0d3R32)
-  - [Postgresql client](./assets/postgresql.png)
+  - ![Postgresql client](./assets/postgresql.png)
