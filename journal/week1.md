@@ -5,8 +5,8 @@
   ![Dockerfile as CMD](./assets/external_dockerfile_cmd.png)
   
   - Push and tag a image to DockerHub (they have a free tier)
-    ![Dockerfile as CMD](./assets/dockerhub_1.png)
-    ![Dockerfile as CMD](./assets/dockerhub_2.png)
+    ![Dockerfile as CMD](./assets/dockerhub-1.png)
+    ![Dockerfile as CMD](./assets/dockerhub-2.png)
 
 
 ## Tasks
