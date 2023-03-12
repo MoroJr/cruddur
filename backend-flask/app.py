@@ -26,6 +26,7 @@ from aws_xray_sdk.core import xray_recorder
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 
 # Initialize tracing and an exporter that can send data to Honeycomb
+"""
 provider = TracerProvider()
 processor = BatchSpanProcessor(OTLPSpanExporter())
 provider.add_span_processor(processor)
@@ -35,6 +36,7 @@ provider.add_span_processor(simple_processor)
 
 trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
+"""
 
 app = Flask(__name__)
 # Honeycomb - Initialize automatic instrumentation with Flask
@@ -106,6 +108,7 @@ def data_notifications():
   return data, 200
 
 @app.route("/api/activities/@<string:handle>", methods=['GET'])
+# @xray_recorder.capture("user_activities")
 @cross_origin()
 def data_handle(handle):
   model = UserActivities.run(handle)
